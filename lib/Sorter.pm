@@ -56,4 +56,4 @@ sub sort {
     $self->set_values( Sorter->quick_sort(0, $#values, @values) );
 }
 
-l;
+1;
